@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
-  * main - This is a prinf function
+  * main - This is a description for the main function
   * Return: 0
   */
 int main(void)
