@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
- * main - Description of the function of the code
- * Return: 0
- */
+/**
+ ** main - this sdesribes the main function of the code
+ ** Return: 0
+ **/
 int main(void)
 {
 	char a;
@@ -17,3 +17,4 @@ int main(void)
 	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(e));
 	return (0);
 }
+
