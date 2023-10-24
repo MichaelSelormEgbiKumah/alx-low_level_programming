@@ -1,15 +1,17 @@
 #include <stdio.h>
+#include <ctype.h>
 /**
-  * main - program that prints the alphabet in lowercase and upper case
-  * Return: Always 0.
-  **/
+*main - Prints all single digits of base 10 followed by new line
+*
+*Return: returns 0
+*/
 int main(void)
 {
-	char letter;
-	for (letter = 'a'; letter <= 'z'; letter++)
+	int digit;
+
+	for (digit = '0'; digit <= '9'; digit++)
 	{
-		if (letter != 'e' && letter != 'q')
-			putchar(letter);
+		putchar(digit);
 	}
 	putchar('\n');
 	return (0);
